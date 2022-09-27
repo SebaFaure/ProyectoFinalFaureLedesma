@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coco Maderas Cordoba</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="cocoMaderas.css">
+  <script defer src="CocoMaderas.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img src="imagenesProductos/ImagenLogo.png" alt="" width="40" height="40">
+        </a>
+        <form class="d-flex m-2" role="search">
+          <input class="form me-2 border border-5" type="search" placeholder="  Producto..." aria-label="Search">
+          <button id="botonBuscar" class="btn btn-secondary" type="submit">BUSCAR</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <div class="titulosPagina container text-white bg-dark">
+    <h1 id="titulo">¡COCO MADERAS CORDOBA!</h1>
+    <p id="parrafo">Somos una empresa dedicada a la fabricacion de productos en madera, destinados a satisfacer las
+      necesidades del hogar</p>
+  </div>
+
+  <div class="container bg-white">
+    <h2 class="text-center mt-4 p-2"> LOS MAS VENDIDOS </h2>
+    <div class="container">
+      <div id="productosMasVendidos" class="container d-flex justify-content-evenly flex-wrap">
+      </div>
+    </div>
+  </div>
+
+  <div id="contenedorProductos" class="container d-flex justify-content-evenly flex-wrap">
+
+  </div>
+
+  <div class="container bg-white border border-dark">
+    <h1 class="text-center mt-3 bg-dark text-white">CARRITO DE COMPRAS</h1>
+    <table class="table table-white table-borderless">
+      <thead">
+        <tr class="">
+          <th scope="col">ID</th>
+          <th scope="col">CANT.</th>
+          <th scope="col">PROD.</th>
+          <th scope="col">$</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody id="carritoDeCompras" class="table-group-divider">
+
+      </tbody>
+    </table>
+
+    <div id="TotalCarrito" class="container text-center">
+      <h2 class="text-center mt-3 bg-dark text-white">TOTAL A PAGAR</h2>
+      <p id="importeTotal" class="border border-dark"> $ </p>
+      <button id="botonComprar" class="btn btn-warning mb-3">COMPRAR</button>
+    </div>
+  </div>
+
+  <footer class="container bg-dark text-white mt-2">
+    <div class="container d-flex justify-content-evenly">
+      <p>Contacto: 4965188    
+      <p>Direccion: Felix Frias 234. Cordoba Capital</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

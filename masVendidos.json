@@ -1,0 +1,6 @@
+[
+    {"id": 8, "producto": "Mesas Nordica x3", "precio": 4950, "img":"imagenesProductos/mesasNordicasX3.jpg", "cantidad":""},
+    {"id": 1, "producto": "Especiero Gourmet x8", "precio": 1600, "img":"imagenesProductos/especieroGourmet8.jpg", "cantidad":""},
+    {"id": 5, "producto": "Perchero Nordico Chico", "precio": 2200,"img":"imagenesProductos/percheroLineal.jpg", "cantidad":""}
+]
+
